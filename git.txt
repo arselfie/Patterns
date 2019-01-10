@@ -1,24 +1,24 @@
-меняем ветку
+РјРµРЅСЏРµРј РІРµС‚РєСѓ
 git checkout -b 
 git add 
 git commit -m "co obsahuje commit"
 git push
-На сайте сделать пулл реквест
+РќР° СЃР°Р№С‚Рµ СЃРґРµР»Р°С‚СЊ РїСѓР»Р» СЂРµРєРІРµСЃС‚
 
 Changing of School class:implementation of addCourse method considering the requirements.
 Changing of CourseAction class:fix encapsulation to use good programming practice at School class.
 
-Создаем новую ветку:
+РЎРѕР·РґР°РµРј РЅРѕРІСѓСЋ РІРµС‚РєСѓ:
 $ git checkout -b new_feature
 
-Мокито
+РњРѕРєРёС‚Рѕ
 https://mvnrepository.com/artifact/org.mockito/mockito-core/2.23.4
 
-Перед методом с тестом добавляем аннотацию (чтоб работали тесты под Мокито)
+РџРµСЂРµРґ РјРµС‚РѕРґРѕРј СЃ С‚РµСЃС‚РѕРј РґРѕР±Р°РІР»СЏРµРј Р°РЅРЅРѕС‚Р°С†РёСЋ (С‡С‚РѕР± СЂР°Р±РѕС‚Р°Р»Рё С‚РµСЃС‚С‹ РїРѕРґ РњРѕРєРёС‚Рѕ)
 @RunWith(MockitoJUnitRunner.class)
 
-Если мы хотим мокать private метод, должны использовать powerMock
+Р•СЃР»Рё РјС‹ С…РѕС‚РёРј РјРѕРєР°С‚СЊ private РјРµС‚РѕРґ, РґРѕР»Р¶РЅС‹ РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊ powerMock
 
-загружаем https://github.com/powermock/powermock/wiki/Downloads
-версия powermock-mockito2-junit-1.7.1.zip
+Р·Р°РіСЂСѓР¶Р°РµРј https://github.com/powermock/powermock/wiki/Downloads
+РІРµСЂСЃРёСЏ powermock-mockito2-junit-1.7.1.zip
 
