@@ -1,0 +1,24 @@
+меняем ветку
+git checkout -b 
+git add 
+git commit -m "co obsahuje commit"
+git push
+На сайте сделать пулл реквест
+
+Changing of School class:implementation of addCourse method considering the requirements.
+Changing of CourseAction class:fix encapsulation to use good programming practice at School class.
+
+Создаем новую ветку:
+$ git checkout -b new_feature
+
+Мокито
+https://mvnrepository.com/artifact/org.mockito/mockito-core/2.23.4
+
+Перед методом с тестом добавляем аннотацию (чтоб работали тесты под Мокито)
+@RunWith(MockitoJUnitRunner.class)
+
+Если мы хотим мокать private метод, должны использовать powerMock
+
+загружаем https://github.com/powermock/powermock/wiki/Downloads
+версия powermock-mockito2-junit-1.7.1.zip
+
